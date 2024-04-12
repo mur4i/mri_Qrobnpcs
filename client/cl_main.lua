@@ -66,7 +66,7 @@ local function addInteraction(entity)
             ignoreLos = false,
             options = {
                 {
-                    label = 'Rob Citizen',
+                    label = 'Roubar',
                     action = function(_, coords, args)
                         robLocal(entity)
                     end,
@@ -79,7 +79,7 @@ local function addInteraction(entity)
                 {
                     type = "client",
                     icon = 'fas fa-gun',
-                    label = 'Rob Citizen',
+                    label = 'Roubar',
                     action = function(entity)
                         robLocal(entity)
                     end,

@@ -2,8 +2,8 @@ return {
     useInteract = false,                                    -- Use interact or ox/qb target (https://github.com/darktrovx/interact)
     targetDistance = 20,                                    -- Max distance ped reacts to you aiming at them
     blacklistedJobs = {                                     -- Jobs not allowed to rob locals
-        'police',
-        'ambulance'
+        -- 'police',
+        -- 'ambulance'
     },
     robLength = 5,                                          -- Length to rob local (seconds)
     chancePedFlees = {                                      -- Chance ped runs away rather than surrendering
@@ -19,7 +19,7 @@ return {
         max = 90
     },
     pedWeapons = {                                          -- Weapons ped might have
-        'WEAPON_KNIFE',
+        'WEAPON_KINFE',
         'WEAPON_BAT'
     },
     copsChance = {                                          -- Chance police are called
@@ -38,10 +38,10 @@ return {
         exports["ps-dispatch"]:CustomAlert({
             coords = coords,
             job = PoliceJobs,
-            message = 'Citizen Robbery',
+            message = 'Assalto à Cidadão',
             dispatchCode = '10-??',
             firstStreet = coords,
-            description = 'Citizen Robbery',
+            description = 'Assalto armado',
             radius = 0,
             sprite = 58,
             color = 1,
