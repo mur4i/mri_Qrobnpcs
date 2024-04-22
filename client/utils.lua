@@ -91,7 +91,7 @@ function fightOrFlee(entity)
 
     if randomChance <= fleeChance then
         pedFlees(entity)
-        lib.notify({ title = 'They ran away!', type = 'error'})
+        lib.notify({ title = 'Eles fugiram!', type = 'error'})
         return true
     end
 
